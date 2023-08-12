@@ -1,0 +1,51 @@
+{
+  "name": "unit-standards",
+  "type": "module",
+  "version": "2.0.0",
+  "description": "Practising post routes, handlebars and filesystems",
+  "main": "index.js",
+  "author": "Dev Academy Aotearoa",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon --ignore 'server/data/' server/index",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "test": "vitest",
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+  },
+  "homepage": "https://github.com/kate-hooker/unit-standards#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kate-hooker/unit-standards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kate-hooker/unit-standards/issues"
+  },
+  "eslintConfig": {
+    "extends": ["@devacademy"]
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "@devacademy/eslint-config": "^1.8.0",
+    "@testing-library/dom": "^8.17.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "jsdom": "^22.1.0",
+    "nodemon": "^2.0.15",
+    "prettier": "2.6.1",
+    "supertest": "^6.2.2",
+    "vitest": "^0.33.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
