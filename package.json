@@ -22,11 +22,13 @@
     "url": "https://github.com/kate-hooker/unit-standards/issues"
   },
   "eslintConfig": {
-    "extends": ["@devacademy"]
+    "extends": [
+      "@devacademy"
+    ]
   },
   "dependencies": {
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.7"
   },
   "devDependencies": {
     "@devacademy/eslint-config": "^1.8.0",
@@ -39,7 +41,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
     "jsdom": "^22.1.0",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.22",
     "prettier": "2.6.1",
     "supertest": "^6.2.2",
     "vitest": "^0.33.0"
