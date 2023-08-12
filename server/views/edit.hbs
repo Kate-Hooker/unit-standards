@@ -1,0 +1,26 @@
+<form class="form" action="/edit/{{id}}" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{location}}">
+  <label for="dateOfSighting" class="form-item">
+    Date the fiend was spotted:
+    <input type="text" name="name" value="{{dateOfSighting}}">
+  </label>
+  
+  <label for="nameOfPersonReporting" class="form-item">
+    UFO spotters name:
+    <input type="text" name="breed" value="{{nameOfPersonReporting}}">
+  </label>
+  
+  <label for="location" class="form-item">
+    Location:
+    <input type="text" name="owner" value="{{location}}">
+  </label>
+
+    <label for="briefDescription" class="form-item">
+    Description of event:
+    <input type="text" name="owner" value="{{briefDescription}}">
+  </label>
+  
+  <input type="hidden" name="image" value="{{image}}">
+  
+  <input type="submit" name="" value="Submit">
+</form>

@@ -1,60 +1,60 @@
 {
-  "alienReports": [
+  "ufoSightings": [
     {
-      "reportId": 1,
-      "dateOfReport": "2023-08-12",
-      "nameOfPersonReporting": "Ziggy Stardust",
-      "location": "Area 51½",
-      "briefDescription": "Spotted a group of aliens having a dance party with disco lights.",
-      "image": "/images/alien1.jpg"
+      "id": 1,
+      "dateOfSighting": "2023-08-12",
+      "nameOfPersonReporting": "Ivana Spaceship",
+      "location": "Crop Circle Farm",
+      "briefDescription": "Witnessed a UFO creating a crop circle in the shape of a smiley face.",
+      "image": "/images/ufo1.jpg"
     },
     {
-      "reportId": 2,
-      "dateOfReport": "2023-08-11",
-      "nameOfPersonReporting": "Betty Nebulon",
-      "location": "Roswell's Diner",
-      "briefDescription": "Served coffee to an alien who ordered space fries with moon ketchup.",
-      "image": "/images/alien2.jpg"
+      "id": 2,
+      "dateOfSighting": "2023-08-11",
+      "nameOfPersonReporting": "Buddy Beam",
+      "location": "Glittering Meadows",
+      "briefDescription": "Saw a UFO throwing a rave party for fireflies, complete with neon lights.",
+      "image": "/images/ufo2.jpg"
     },
     {
-      "reportId": 3,
-      "dateOfReport": "2023-08-10",
-      "nameOfPersonReporting": "Marvin McMirth",
-      "location": "Gravitational Giggles Amusement Park",
-      "briefDescription": "Alien rode the roller coaster and didn't seem to understand the concept of gravity.",
-      "image": "/images/alien3.jpg"
+      "id": 3,
+      "dateOfSighting": "2023-08-10",
+      "nameOfPersonReporting": "Luna Starstruck",
+      "location": "Starry Skies Observatory",
+      "briefDescription": "Observed a UFO challenging constellations to a game of intergalactic chess.",
+      "image": "/images/ufo3.jpg"
     },
     {
-      "reportId": 4,
-      "dateOfReport": "2023-08-09",
-      "nameOfPersonReporting": "Gertie Gloop",
-      "location": "Squishy Swamp",
-      "briefDescription": "Witnessed an alien attempting to communicate with frogs using interpretive dance.",
-      "image": "/images/alien4.jpg"
+      "id": 4,
+      "dateOfSighting": "2023-08-09",
+      "nameOfPersonReporting": "Cosmo Kook",
+      "location": "Moonlit Beach",
+      "briefDescription": "Spotted a UFO building sandcastles and sunbathing on the beach.",
+      "image": "/images/ufo4.jpg"
     },
     {
-      "reportId": 5,
-      "dateOfReport": "2023-08-08",
-      "nameOfPersonReporting": "E.T. Enthusiast",
-      "location": "Skyline Observatory",
-      "briefDescription": "Observed a flying saucer doing doughnuts in the night sky.",
-      "image": "/images/alien5.jpg"
+      "id": 5,
+      "dateOfSighting": "2023-08-08",
+      "nameOfPersonReporting": "Stella Stargaze",
+      "location": "Twilight Forest",
+      "briefDescription": "Witnessed a UFO and a squirrel engaging in an epic dance-off under the moonlight.",
+      "image": "/images/ufo5.jpg"
     },
     {
-      "reportId": 6,
-      "dateOfReport": "2023-08-07",
-      "nameOfPersonReporting": "Zara Zephyr",
-      "location": "Meteor Mart",
-      "briefDescription": "Alien tried to purchase a telescope with space credits but got confused by Earth currency.",
-      "image": "/images/alien6.jpg"
+      "id": 6,
+      "dateOfSighting": "2023-08-07",
+      "nameOfPersonReporting": "Orbit Oddity",
+      "location": "Galactic Gas Station",
+      "briefDescription": "Saw a UFO stopping for a quick refuel before zipping off into the cosmos.",
+      "image": "/images/ufo6.jpg"
     },
     {
-      "reportId": 7,
-      "dateOfReport": "2023-08-06",
-      "nameOfPersonReporting": "Bob Stardust",
-      "location": "Starbucks Galaxy",
-      "briefDescription": "Spotted an alien sipping a supernova latte while reading 'Cosmic Times' newspaper.",
-      "image": "/images/alien7.jpg"
+      "id": 7,
+      "dateOfSighting": "2023-08-06",
+      "nameOfPersonReporting": "Nova Nutcase",
+      "location": "Asteroid Amusement Park",
+      "briefDescription": "Observed a UFO enjoying a thrilling ride on the space coaster.",
+      "image": "/images/ufo7.jpg"
     }
   ]
 }

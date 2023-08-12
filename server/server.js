@@ -16,12 +16,11 @@ server.engine('hbs', handlebars.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 server.set('views', Path.resolve('server/views'))
 
+server.use('/', routes)
 // Routes
 
 server.get('/', (req, res) => {
-  console.log('RENDERING THE HOME PAGE')
-  res.render('home.hbs') // express looks for a file in the views directory,
-  //then compiles and renders them to the client
+  res.redirect('/ufos')
 })
 
 export default server
