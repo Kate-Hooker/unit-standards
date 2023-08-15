@@ -10,18 +10,18 @@
     },
     {
       "id": 2,
-      "dateOfSighting": "2023-08-11",
-      "nameOfPersonReporting": "Buddy Beam",
-      "location": "Glittering Meadows",
-      "briefDescription": "Saw a UFO throwing a rave party for fireflies, complete with neon lights.",
-      "image": "/images/ufo2.jpg"
+      "image": "/images/ufo2.jpg",
+      "dateOfSighting": "2023-03-12",
+      "nameOfPersonReporting": "Star E Knight",
+      "location": "Oriental Bay",
+      "briefDescription": "Took some snaps of our frisbee game and spotted this intergalatic invader in the background"
     },
     {
       "id": 3,
       "dateOfSighting": "2023-08-10",
       "nameOfPersonReporting": "Luna Starstruck",
-      "location": "Starry Skies Observatory",
-      "briefDescription": "Observed a UFO challenging constellations to a game of intergalactic chess.",
+      "location": "Space",
+      "briefDescription": "International space station regrets SETI",
       "image": "/images/ufo3.jpg"
     },
     {
@@ -56,5 +56,6 @@
       "briefDescription": "Observed a UFO enjoying a thrilling ride on the space coaster.",
       "image": "/images/ufo7.jpg"
     }
+
   ]
 }

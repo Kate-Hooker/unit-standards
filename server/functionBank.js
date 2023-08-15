@@ -21,12 +21,20 @@ export async function getSightingById(id) {
 
 export async function editSighting(sighting) {
   const sightingData = await getAllUFOData()
-  const updatedSighting = sightingData.ufoSightings.find(
+  const index = sightingData.ufoSightings.findIndex(
     (ufo) => ufo.id === sighting.id
   )
-  if (!updatedSighting) {
-    const error = new Error('ID not found')
+
+  if (index === -1 || index >= sightingData.ufoSightings.length) {
+    const error = new Error('Invalid ID')
     error.code = 404
     throw error
   }
+
+  sightingData.ufoSightings[index] = {
+    ...sightingData.ufoSightings[index],
+    ...sighting,
+  }
+
+  await fs.writeFile(filepath, JSON.stringify(sightingData, null, 2), 'utf-8')
 }
