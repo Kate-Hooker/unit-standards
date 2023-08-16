@@ -9,7 +9,7 @@ export async function getAllUFOData() {
 
 export async function getSightingById(id) {
   const sightingData = await getAllUFOData()
-  const sightingDetails = sightingData.ufoSightings.find((ufo) => ufo.id === id)
+  const sightingDetails = sightingData.ufoSightings.find((ufo) => ufo.id === id) // Very elegant.
   if (!sightingDetails) {
     const error = new Error('ID not found')
     error.code = 404
@@ -34,7 +34,7 @@ export async function editSighting(sighting) {
   sightingData.ufoSightings[index] = {
     ...sightingData.ufoSightings[index],
     ...sighting,
-  }
+  } // Also very nice! Excellent use of spread and square bracket notation.
 
   await fs.writeFile(filepath, JSON.stringify(sightingData, null, 2), 'utf-8')
 }

@@ -2,6 +2,11 @@
   {{#each ufoData}}
   <div class="ufo-list">
     <a href="/{{id}}"><img class="img-circle" src="{{image}}" alt="{{location}}"></a>
+    {{!--
+      The <img> above could be where the image path is managed, as I mention in the .json file.
+      In fact, if you wanted to really streamline, you could make the image itself a partial that
+      gets used by the home page, detail, edit, and anywhere else.
+    --}}
   </div>
   {{/each}}
 </div>

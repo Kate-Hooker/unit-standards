@@ -9,19 +9,24 @@
     <link rel="stylesheet" href="/main.css">
     <link rel="icon" href="data:,">
   </head>
-
-</html>  <body>
+  <body>
     <div> 
       <h1 class="title">Area 404</h1>
-      </div>
-      <div class="nav-container"> 
+    </div>
+    <div class="nav-container"> 
       <nav style="text-align: center" class="nav">
-      <a class="nav" href="/">Home</a>
-      <a class="nav" href="/ufos/new">Report a sighting</a>
-      </div>
+        <a class="nav" href="/">Home</a>
+        <a class="nav" href="/ufos/new">Report a sighting</a>
       </nav>
-      <div>
+    </div>
+    <div>
       {{{body}}}
-      
     </div>
   </body>
+  {{!--
+    White space and indentation might seem trivial and not a good use of time, but it can help with identifying issues.
+    When I came in to straighten up some indentation, I found a couple out of order tags that might have been causing
+    quirkiness when trying to style, though browsers are pretty good at guessing what we meant. You can also run HTML
+    through a validator to help catch these problems. https://validator.w3.org/#validate_by_input
+  --}}
+</html>
