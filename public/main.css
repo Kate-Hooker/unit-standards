@@ -4,6 +4,14 @@
   justify-content: center;
 }
 
+#head {
+  color: black;
+  text-decoration: none;
+  padding: 128px 0 48px 48px;
+  font-size: 3.5em;
+  font-family: 'courier new';
+}
+
 .ufo-list {
   display: flex;
   flex-direction: column;
