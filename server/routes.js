@@ -67,9 +67,11 @@ router.post('/edit/:id', async (req, res, next) => {
       updatedSighting.nameOfPersonReporting = nameOfPersonReporting
       updatedSighting.location = location
       updatedSighting.briefDescription = briefDescription
+      // One option would be to spread req.body to updatedSighting
     }
+    // If there's no updatedSighting, it looks like we would continue?
 
-    await functionBank.editSighting(updatedSighting)
+    await functionBank.editSighting(updatedSighting) // We could directly pass req.body, rather than mutating updatedSighting
     res.redirect('/' + id)
   } catch (err) {
     if (err.code === 404) {
@@ -90,11 +92,12 @@ router.post('/ufos/new', upload.single('image'), async (req, res) => {
     const ufoData = await functionBank.getAllUFOData()
 
     const newSighting = {
-      id: ufoData.ufoSightings.length + 1,
+      id: ufoData.ufoSightings.length + 1, // NB: This would cause problems if it were possible to delete a record
       dateOfSighting: req.body.dateOfSighting,
       nameOfPersonReporting: req.body.nameOfPersonReporting,
       location: req.body.location,
       briefDescription: req.body.briefDescription,
+      // With the prior four properties, it might be efficient to spread req.body?
       image: req.file.filename,
     }
     ufoData.ufoSightings.push(newSighting)

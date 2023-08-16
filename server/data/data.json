@@ -54,7 +54,8 @@
       "nameOfPersonReporting": "Nova Nutcase",
       "location": "Asteroid Amusement Park",
       "briefDescription": "Observed a UFO enjoying a thrilling ride on the space coaster.",
-      "image": "/images/ufo7.jpg"
+      "image": "/images/ufo7.jpg",
+      "comment": "A slight improvement would be to leave the path to the file out of the value (so just 'ufo7.jpg'). That way the individual record doesn't need to know where the images live, and you can maintain the file path in just one place, for example when setting the 'src' on the <img>. I suspect this will also make it easier to display uploaded files, once that feature is in place."
     }
 
   ]

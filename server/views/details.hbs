@@ -1,11 +1,13 @@
 <div class="ufo">
-   <div>{{dateOfSighting}}</div>
+  <div>{{dateOfSighting}}</div>
   <div>{{location}}</div>
  
-   <img class="img-circle" src="{{image}}" alt="{{location}}">
+  <img class="img-circle" src="{{image}}" alt="{{location}}">
   <div></div>
-   <div>"{{briefDescription}}"</div>
+  {{!-- Is this empty div being used for styling purposes? --}}
+  <div>"{{briefDescription}}"</div>
   <div><i>--{{nameOfPersonReporting}}</i></div>
- 
+  {{!-- General rule of thumb is to avoid unnecessary divs. Where possible, use "semantic" HTML elements
+  that have inherent meaning, like paragraphs, lists, articles, etc. This is better for accessibility and SEO --}}
   <a href="/edit/{{id}}">Edit</a>
 </div>

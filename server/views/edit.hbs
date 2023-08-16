@@ -16,7 +16,7 @@
     <input type="text" name="location" value="{{location}}">
   </label>
 
-    <label for="briefDescription" class="form-item">
+  <label for="briefDescription" class="form-item">
     Description of event:
     <input type="text" name="briefDescription" value="{{briefDescription}}">
   </label>
@@ -25,3 +25,10 @@
   
   <input type="submit" name="" value="Submit">
 </form>
+{{!--
+  Forms can be tricky to do well, especially from an accessibility perspective, but this is a really good one!
+  One thing to look into if you're curious is the difference between implicit and explicit labelling.
+  Also great pre-populating of the existing values. I wonder, if the form (or most of the form) were pulled
+  into a partial, could it be used for both the "edit" and the "report-sighting"? What happens if those
+  pre-populated values don't exist? What other adaptations might be needed?
+--}}
