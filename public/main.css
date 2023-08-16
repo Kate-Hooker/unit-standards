@@ -32,6 +32,21 @@
 .nav {
   text-align: center;
   color: black;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .form {
@@ -54,4 +69,13 @@
 .form-item input {
   width: 100%;
   padding: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin: 5px 10px;
+  text-align: center;
+
+  align-items: center;
 }
